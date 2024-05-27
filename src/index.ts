@@ -2,8 +2,8 @@ import * as i2c from "i2c-bus";
 
 const i2cBus = i2c.openSync(1); // Use I2C bus 1
 
-const startAddress = 0x20;
-const endAddress = 0x23;
+const startAddress = 0x00;
+const endAddress = 0x77;
 
 async function scanI2C() {
   for (let address = startAddress; address <= endAddress; address++) {
