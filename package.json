@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build": "tsc",
     "test": "ts-node src/index.ts"
   },
   "keywords": [],
