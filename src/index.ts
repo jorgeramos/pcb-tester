@@ -1,5 +1,5 @@
 import chalk from "chalk";
-import * as i2c from "i2c-bus";
+import i2c from "i2c-bus";
 
 const i2cBus = i2c.openSync(1); // Use I2C bus 1
 
